@@ -1,0 +1,11 @@
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+.env
+
+# Ignore migrations for specific apps
+users/migrations/*
+!users/migrations/__init__.py
